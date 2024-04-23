@@ -1,7 +1,6 @@
 // Add JavaScript below
-
 function request(){
-    fetch("https://jsonplaceholder.typicode.com/posts/1/comments")
+    fetch("https://jsonplaceholder.typicode.com/comments?postId=1")
     .then(function(response){
         return response.json()
     })
